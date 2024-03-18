@@ -18,7 +18,6 @@ XPATHS = [Overview_XPATH, SkatingSpeed_XPATH, SkatingDistance_XPATH, ShotSpeed_X
           ZoneTime_XPATH]
 
 
-# Open a website
 driver.get(url)
 
 wait = WebDriverWait(driver, 45)
@@ -31,5 +30,4 @@ for XPATH in XPATHS:
 
 print('Testing')
 
-# Close the browser
 driver.quit()
